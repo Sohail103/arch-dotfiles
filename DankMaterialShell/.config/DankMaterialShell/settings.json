@@ -18,10 +18,10 @@
   "showWeather": true,
   "showMusic": true,
   "showClipboard": true,
-  "showCpuUsage": true,
-  "showMemUsage": true,
-  "showCpuTemp": true,
-  "showGpuTemp": true,
+  "showCpuUsage": false,
+  "showMemUsage": false,
+  "showCpuTemp": false,
+  "showGpuTemp": false,
   "selectedGpuIndex": 0,
   "enabledGpuPciIds": [],
   "showSystemTray": true,
@@ -56,8 +56,6 @@
   "topBarRightWidgets": [
     "systemTray",
     "clipboard",
-    "cpuUsage",
-    "memUsage",
     "notificationButton",
     "battery",
     "controlCenterButton"
